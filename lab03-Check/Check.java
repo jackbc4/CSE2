@@ -1,5 +1,5 @@
 //Jack Circus
-//check.java lab03
+//check.java hw03
 //Using user inputs
 
 //import the scanner class
