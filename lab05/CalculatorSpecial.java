@@ -8,6 +8,7 @@
 
 //Import scanner 
 import java.util.Scanner;
+ 
  //create class
 public class CalculatorSpecial {
     
