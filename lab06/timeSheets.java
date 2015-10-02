@@ -28,7 +28,7 @@ public class timeSheets {
         for (int i = 1; i<= workers; i++) {
             
             //prompt for the salary of the first worker in cents and store value
-            System.out.print("Enter this worker's salary in cents: ");
+            System.out.print("Enter this worker's wage in cents: ");
             cents = myScanner.nextFloat();
             
             //prompt for the number of hours worked monday and store value
