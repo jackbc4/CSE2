@@ -27,7 +27,7 @@ public class pyramid {
         int height = myScanner.nextInt();
         
         //Create a for loop that runs as many times as the number entered by user
-        for (i=0; i<=height; i++){
+        for (i=0; i<height; i++){
             //y is equal to the number of blank spaces needed before the first *
                  y=height-i;
                  
