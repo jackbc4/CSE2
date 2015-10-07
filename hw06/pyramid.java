@@ -43,6 +43,7 @@ public class pyramid {
             for (n=0;n<z;n++){
                 System.out.print("*");
             }
+            //increase z by 2, z is the number of * printed per line
             z = z + 2;
             //print a new line after each row of the pyramid
             System.out.println();
