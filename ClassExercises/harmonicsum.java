@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class harmonicsum {
     public static void main(String[] args){
-        int n=50000;
+        Scanner myScanner = new Scanner(System.in);
+        System.out.print("Enter the number of times to run the loop ");
+        double n = myScanner.nextDouble();
         double sum = 0;
         double i;
         double x = 1;
@@ -12,10 +16,10 @@ public class harmonicsum {
             sum = sum + x;
             sum2 = sum2 + y;
         }
-        System.out.println(sum);
-        System.out.println(sum2);
+        System.out.println("When calculated left to right the sum is: "+sum);
+        System.out.println("When calculated right to left the sum is:"+sum2);
         double dif = sum2 - sum;
-        System.out.println(dif);
+        System.out.println("The difference between the two sums is"+dif);
         double z = 1/dif;
         System.out.println(z);
     }
