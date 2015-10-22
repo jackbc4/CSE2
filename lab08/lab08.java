@@ -9,7 +9,7 @@ import java.util.Scanner;
  
 //create public class
 public class lab08 {
-    //declare variables used throughout
+    //declare variables used throughout program
     static int numArray[] = new int[10];
     static int sum=0;
     static double avg=0;
