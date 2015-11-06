@@ -55,30 +55,30 @@ public class lab11 {
         
         
         //print out array 1
-        System.out.println("Array 1:");
+        System.out.print("Array 1: ");
         for (int i =0; i<20; i++){
-            System.out.println(arr1[i]);
+            System.out.print(arr1[i]+ " ");
         }
         
+        System.out.println();
         //print out array 2
-        System.out.println("Array 2:");
+        System.out.print("Array 2: ");
        for (int i =0; i<10; i++){
-            System.out.println(arr2[i]);
+            System.out.print(arr2[i]+" ");
         } 
         
+        System.out.println();
         //print out array 3
-        System.out.println("Array 3");
+        System.out.print("Array 3: ");
        for (int i =0; i<30; i++){
-            System.out.println(arr3[i]);
+            System.out.print(arr3[i]+" ");
         } 
-        
+       System.out.println(); 
        
         
     }
-            
-        
-    
    
+   //class to sort the arrays
     public static void sort(int[] arr1, int[] arr2, int[] arr3){
         //sort the three arrays
         Arrays.sort(arr1);
