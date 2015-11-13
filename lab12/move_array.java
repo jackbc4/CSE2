@@ -10,7 +10,6 @@ public class move_array{
         //create scanner
         Scanner scan = new Scanner(System.in);
         
-        
         //use try catch statement to check if value is greater than 0
         try{
         //prompt user for size of the array and store as n
@@ -57,9 +56,6 @@ public class move_array{
             }
             System.out.println();
         
-
-        
-     
         //create temporary variable for index value of arr        
         int y = arr[m];
         
